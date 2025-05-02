@@ -250,31 +250,83 @@
 #     print("it's is a odd number")    
 
 
-number = int(input("Enter your Number "))
+# number = int(input("Enter your Number "))
 
-if number % 2 == 0:
-    print("It's an even number")
-    if number % 5 == 0:
-        print("It is also divisible by 5")
-    else:
-        print("It is not divisible by 5")
-else:
-    print("It's an odd number")
-    if number % 7 == 0:
-        print("It is also divisible by 7")
-    else:
-        print("It is not divisible by 7")
+# if number % 2 == 0:
+#     print("It's an even number")
+#     if number % 5 == 0:
+#         print("It is also divisible by 5")
+#     else:
+#         print("It is not divisible by 5")
+# else:
+#     print("It's an odd number")
+#     if number % 7 == 0:
+#         print("It is also divisible by 7")
+#     else:
+#         print("It is not divisible by 7")
 
-      
-
-
-
+# Q10: Write a program that takes five numbers from 
+# the user and prints the greatest number & lowest number.
 
 
+# greater_number = 99
+# lowest_number = 711
+
+# if greater_number > lowest_number:
+#     print("greater number is big")
+#     print("lowest number is small")
+
+# elif lowest_number > greater_number:
+#     print("lowest number is big")
+#     print("greater number is small")
+
+# else:
+#     print("invalid number")   
 
 
 
 
+# num1 = 2
+# num2 = 30000
+# num3 = 40000000000000000
+# num4 = 55
+# num5 = 4 
+
+# if num1 > num2 and num1 > num3 and num1 > num4 and num1 > num5:
+#    print("num1 is greator than num2 and num3 and num4 and num5")
+#    print("jo bacha wo small")  
+
+# elif num2 > num1 and num2 > num3 and num2 > num4 and num2 > num5:
+#    print("num2 is greator then num1 and num3 and num4 and num5" )
+#    print("jo bacha wo small")  
+
+# elif num3 > num1 and num3 > num2 and num3 > num4 and num3 > num5:
+#    print("num3 is greator then num1 and num2 and num4 and num5")
+#    print("jo bacha wo small")    
+
+# elif num4 > num1 and num4 > num2 and num4 > num3 and num4 > num5:
+#    print("num4 is greator then num1 and num2 and num3 and num5")
+#    print("jo bacha wo small")    
+
+
+# elif num5 > num1 and num5 > num2 and num5 > num3 and num5 > num4:
+#    print("num5 is greator then num1 and num2 and num3 and num4")
+#    print("jo bacha jo small")    
+
+# else:
+#    print("Invalid Number")   
+
+  
+
+
+num1 = 2
+num2 = 30000
+num3 = 40000000000000000
+num4 = 55
+num5 = -3
+
+print("Greatest:", max(num1, num2, num3, num4, num5))
+print("Smallest:", min(num1, num2, num3, num4, num5))
 
 
 
