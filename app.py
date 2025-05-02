@@ -242,13 +242,30 @@
 # if this is divisible by 7 or not.
 
 
+# even = 5
+
+# if even % 2  == 0:
+#     print("it's is a even number")
+# else:
+#     print("it's is a odd number")    
 
 
+number = int(input("Enter your Number "))
 
+if number % 2 == 0:
+    print("It's an even number")
+    if number % 5 == 0:
+        print("It is also divisible by 5")
+    else:
+        print("It is not divisible by 5")
+else:
+    print("It's an odd number")
+    if number % 7 == 0:
+        print("It is also divisible by 7")
+    else:
+        print("It is not divisible by 7")
 
-
-
-
+      
 
 
 
