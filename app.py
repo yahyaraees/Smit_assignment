@@ -319,19 +319,59 @@
   
 
 
-num1 = 2
-num2 = 30000
-num3 = 40000000000000000
-num4 = 55
-num5 = -3
+# num1 = 2
+# num2 = 30000
+# num3 = 40000000000000000
+# num4 = 55
+# num5 = -3
 
-print("Greatest:", max(num1, num2, num3, num4, num5))
-print("Smallest:", min(num1, num2, num3, num4, num5))
-
-
+# print("Greatest:", max(num1, num2, num3, num4, num5))
+# print("Smallest:", min(num1, num2, num3, num4, num5))
 
 
+# /////////////////
+
+# Q11: Write a program to calculate root of any number.
+# i.e: √y = y½
+
+# squre_root = float(input("Enter your Number"))
+# root = squre_root ** 0.5
+
+# print("squre root of ",squre_root ,"is ",root )
+
+# Q12: Write a program to convert Celsius  to Fahrenheit   .
+# i.e: Temperature in degrees Fahrenheit (°F) = (Temperature in degrees 
+#sorula formula  Celsius (°C) * 9/5) + 32
+
+
+# celsius = int(input("Enter temperature in °C: "))
+
+# fahrenheit = (celsius * 9/5) + 32
+# print(f"{celsius}°C is equal to {fahrenheit}°F" )
+
+
+# fahrenheit = int(input("Enter temperature in °F: "))
+
+# celsius = (fahrenheit - 32) * 5 / 9 
+# print(f"{fahrenheit}°F is equal to {celsius}°C" )
 
 
 
-   
+print("Choose conversion:")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+
+choice = input("Enter 1 or 2: ")
+
+if choice == "1":
+    celsius = float(input("Enter temperature in °C: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"{celsius}°C is equal to {fahrenheit}°F")
+
+elif choice == "2":
+    fahrenheit = float(input("Enter temperature in °F: "))
+    celsius = (fahrenheit - 32) * 5 / 9
+    print(f"{fahrenheit}°F is equal to {round(celsius,2)}°C")
+
+else:
+    print("Invalid choice. Please enter 1 or 2.")
