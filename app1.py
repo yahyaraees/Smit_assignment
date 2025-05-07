@@ -136,7 +136,7 @@
 # if not user.isalpha():
 #      print("Invalid user input")  
  
-# elif  user.lower() == "a" or user == "e" or  user == "i" or  user == "o" or  user == "u":
+# elif  user == "a" or user == "e" or  user == "i" or  user == "o" or  user == "u":
 #      print("it's a vowel words")  
 # else:
 #     print("it's a consonant")    
@@ -357,21 +357,27 @@
 
 
 
-print("Choose conversion:")
-print("1. Celsius to Fahrenheit")
-print("2. Fahrenheit to Celsius")
+# print("Choose conversion:")
+# print("1. Celsius to Fahrenheit")
+# print("2. Fahrenheit to Celsius")
 
-choice = input("Enter 1 or 2: ")
+# choice = input("Enter 1 or 2: ")
 
-if choice == "1":
-    celsius = float(input("Enter temperature in °C: "))
-    fahrenheit = (celsius * 9/5) + 32
-    print(f"{celsius}°C is equal to {fahrenheit}°F")
+# if choice == "1":
+#     celsius = float(input("Enter temperature in °C: "))
+#     fahrenheit = (celsius * 9/5) + 32
+#     print(f"{celsius}°C is equal to {fahrenheit}°F")
 
-elif choice == "2":
-    fahrenheit = float(input("Enter temperature in °F: "))
-    celsius = (fahrenheit - 32) * 5 / 9
-    print(f"{fahrenheit}°F is equal to {round(celsius,2)}°C")
+# elif choice == "2":
+#     fahrenheit = float(input("Enter temperature in °F: "))
+#     celsius = (fahrenheit - 32) * 5 / 9
+#     print(f"{fahrenheit}°F is equal to {round(celsius,2)}°C")
 
-else:
-    print("Invalid choice. Please enter 1 or 2.")
+# else:
+#     print("Invalid choice. Please enter 1 or 2.")
+
+
+squre_root = int(input("Enter you number "))
+
+jum = squre_root ** 0.5 
+print(f"{squre_root} root is " ,jum)
