@@ -54,10 +54,10 @@
 # key_list = []
 # for key in contact_map:
 #     if len(key) == 4:
-#      key_list.append(key)                                         '''1st use ''''
+#      key_list.append(key)                                      1st use
 #      print(key_list)   
 
-# key_trai = [key for key in contact_map if len(key) == 5]      '''2st use '''' same work
+# key_trai = [key for key in contact_map if len(key) == 5]        '''2st use '''' same work
 # print(key_trai)
 
 
@@ -69,59 +69,84 @@
 
 
 # world = {
-#    "countries": {
-#      "pakistan": {
-#           "Capital": "Islamabad",
-#           "Currency": "rupees",
-#           },
-#            "turkey":{
-#             "Capital":"Ankara",
-#              "Currency":"Turkish lira"
-#           },
-#            "UK":{
-#             "Capital":"London",
-#              "Currency":"pound"
-#           },  
+#     "countries": {
+#       "pakistan":{
+#        "capital": "Islamabad",
+#        "currency": "rupees",  
+#        "language":  "Urdu"
+#       },
+     
+#        "turkey":{
+#         "capital":"Ankara",
+#         "currency":"Turkish lira",
+#         "language": "turkish"
+#       },
+
+#       "saudia_Arabia":{
+#        "capital": "Riyadh",
+#        "currency": "riyal", 
+#        "language":  "Arbi" 
+#       },
+
+#        "uk":{
+#        "capital": "London",
+#        "currency": "pound", 
+#        "language": "English"   
+#       },
+
+#       "usa":{
+#        "capital": "Washington",
+#        "currency": "dollar"    
+#       },
 #     }
 # }
 
 # for country in world["countries"]:
-#     capital = world["countries"][country]["Capital"] 
-#     currency = world["countries"][country]["Currency"]
-#     print(f"{country} capital: {capital} currency {currency}")
-# print(world)
+#   capital =  world["countries"][country]["capital"] 
+#   currency = world["countries"][country]["currency"] 
+#   print(f"{country.title()}, Capital: {capital}, currency: {currency}")
+#   print("-" * 30 )
 
 
-world = {
-    "countries": {
-      "pakistan":{
-       "capital": "Islamabad",
-       "currency": "rupees"    
-      },
-     
-       "turkey":{
-        "capital":"Ankara",
-        "currency":"Turkish lira"
-      },
 
-      "saudia_Arabia":{
-       "capital": "Riyadh",
-       "currency": "riyal"    
-      },
+# Question 7 (Python version):
+# expenses = {
+#     'sun': 3000.0,
+#     'mon': 3000.0,
+#     'tue': 3234.0,
+# }a
+# Check if 'fri' exists in the expenses dictionary.
+# If it exists, change its value to 5000.0.
+# If it doesn't exist, add 'fri' to the dictionary with a value of 5000.0
 
-       "uk":{
-       "capital": "London",
-       "currency": "pound"    
-      },
+# expenses = {
+#     'sun': 3000.0,
+#     'mon': 3000.0,
+#     'tue': 3234.0
+# }
 
-      "usa":{
-       "capital": "Washington",
-       "currency": "dollar"    
-      },
-    }
-}
+# if 'fri' in expenses:
+#     expenses['fri'] = 5000.0
+#     print("'fri' already existed. Updated to 5000.0")
+# else:
+#     expenses['fri'] = 5000.0
+#     print("'fri' added with value 5000.0")
 
-for country in world["countries"]:
-  capital =  world["countries"][country]["capital"] 
-  currency = world["countries"][country]["currency"] 
-  print(f"{country}, Capital: {capital}, currency: {currency}")
+# print(expenses)
+
+#  Q.8: remove all false values from below list by using removeWhere or retainWhere property.
+
+users_eligibility = [
+  {'name': 'yahya','eligibility': True},
+  {'name': 'rais','eligibility': False},
+  {'name': 'aafan','eligibility': True},
+  {'name': 'ahsan','eligibility': False},
+  {'name': 'hasnain','eligibility': True},
+]
+
+filterd = []
+for user in users_eligibility:
+    if user ['eligibility']:
+     filterd.append(user)   
+
+print(f'{filterd} you are eligible')
