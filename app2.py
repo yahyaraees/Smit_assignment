@@ -42,19 +42,19 @@
 # else:
 #     print("No number greater than 0")
 
+
 # Q5:
-# Create a dictionary named contact_map with keys "name" and "phone", and store some appropriate values in it.
-# Then, use a list comprehension to find all keys in the dictionary that have a length of 4 characters.
-contact_map = {
-   "name" : ["Yahya","Rais","siflf","kjfljdfsjfl"],
-   "phone"  : ["Infinix","Mobile"],
-   "nam8" : ["Yahya","Rais"],
-   "phone1"  : ["Infinix","Mobile"]
-}
+#    Create a dictionary named contact_map with keys "name" and "phone", and store some appropriate values in it.
+#    Then, use a list comprehension to find all keys in the dictionary that have a length of 4 characters.
+
+# contact_map = {
+#    "name" : ["Yahya","Rais","siflf","kjfljdfsjfl"],
+#    "phone"  : ["Infinix","Mobile"],
+# }
 # key_list = []
 # for key in contact_map:
 #     if len(key) == 4:
-#      key_list.append(key)                         '''1st use ''''
+#      key_list.append(key)                                         '''1st use ''''
 #      print(key_list)   
 
 # key_trai = [key for key in contact_map if len(key) == 5]      '''2st use '''' same work
@@ -63,54 +63,65 @@ contact_map = {
 
 
 
-# Question:
-# Ek dictionary ke un keys ko list mein lo jinki length 4 se zyada ho.
+# Q.6: Create dictionary variable name world then inside it create countries dictionary, 
+# Key will be the name country & country value will have another dictionary having capitalCity, currency and language to it. 
+# by using any country key print all the value of Capital & Currency.
 
 
-# sample = {"names": "yahya","father_name":"Rais uddin",}
-# trai = [key for key in sample if len(key) > 4]
+# world = {
+#    "countries": {
+#      "pakistan": {
+#           "Capital": "Islamabad",
+#           "Currency": "rupees",
+#           },
+#            "turkey":{
+#             "Capital":"Ankara",
+#              "Currency":"Turkish lira"
+#           },
+#            "UK":{
+#             "Capital":"London",
+#              "Currency":"pound"
+#           },  
+#     }
+# }
 
-# print(trai)
-
-# Question:
-# Ek list banao jisme 1 se 10 tak ke sirf even numbers hon.
-# range_number = [1,2,3,4,5,6,7,8,9,10]
-# even_number = [key for key in range_number if key % 2 == 0]
-# print(f"{even_number}even number")
-
-
-
-
-
-# # keys_with_length_4 = [key for key in contact_map if len(key) == 4]
-# print(keys_with_length_4)
- 
-
-
-
-
-
-
+# for country in world["countries"]:
+#     capital = world["countries"][country]["Capital"] 
+#     currency = world["countries"][country]["Currency"]
+#     print(f"{country} capital: {capital} currency {currency}")
+# print(world)
 
 
+world = {
+    "countries": {
+      "pakistan":{
+       "capital": "Islamabad",
+       "currency": "rupees"    
+      },
+     
+       "turkey":{
+        "capital":"Ankara",
+        "currency":"Turkish lira"
+      },
 
+      "saudia_Arabia":{
+       "capital": "Riyadh",
+       "currency": "riyal"    
+      },
 
+       "uk":{
+       "capital": "London",
+       "currency": "pound"    
+      },
 
+      "usa":{
+       "capital": "Washington",
+       "currency": "dollar"    
+      },
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-wordss = ["cat","dog","cow","goat"]
-long_words = [key for key in wordss if len(key) > 3]
-print(long_words)
+for country in world["countries"]:
+  capital =  world["countries"][country]["capital"] 
+  currency = world["countries"][country]["currency"] 
+  print(f"{country}, Capital: {capital}, currency: {currency}")
