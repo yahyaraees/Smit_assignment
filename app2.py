@@ -136,17 +136,38 @@
 
 #  Q.8: remove all false values from below list by using removeWhere or retainWhere property.
 
-users_eligibility = [
-  {'name': 'yahya','eligibility': True},
-  {'name': 'rais','eligibility': False},
-  {'name': 'aafan','eligibility': True},
-  {'name': 'ahsan','eligibility': False},
-  {'name': 'hasnain','eligibility': True},
+# users_eligibility = [
+#   {'name': 'yahya','eligibility': True},
+#   {'name': 'rais','eligibility': False},
+#   {'name': 'aafan','eligibility': True},
+#   {'name': 'ahsan','eligibility': False},
+#   {'name': 'hasnain','eligibility': True},
+# ]
+
+# filterd = []
+# for user in users_eligibility:
+#     if user ['eligibility']:
+#      filterd.append(user)   
+
+# print(f'{filterd} you are eligible')
+
+
+users_eligibility =[
+    {"user": "yahya","eligible": True},
+    {"user": "Rais","eligible": True},
+    {"user": "Abdullah","eligible": False},
+    {"user": "Abdul Rehmen","eligible": True},
+    {"user": "Aafan","eligible": True},
 ]
 
-filterd = []
-for user in users_eligibility:
-    if user ['eligibility']:
-     filterd.append(user)   
+# filterd = []
+# for user in users_eligibility:
+#     if user ['eligible']:
+#      filterd.append(user)   
+# print(f'{filterd} you are eligible')
 
-print(f'{filterd} you are eligible')
+filtered = []
+for user in users_eligibility:
+  if user ['eligible']:
+   filtered.append(user)
+print(f"{filtered} yor are eligible")
