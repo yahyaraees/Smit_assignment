@@ -3,6 +3,7 @@
 # employee_name = ["yahyaraees","Abdullah","Yasir","Affan"]
 # print(employee_name)
 
+  # ///////////////////////////////////
 
 # Q.2: Create an empty list of type string called days.
 # Use the add method to add names of 7 days and print all days.
@@ -17,6 +18,8 @@
 # names.append("Sunday")
 # print(names)
 
+    # ///////////////////////////////////
+
 # Q.3: Create a list of Days and remove one by one from the end of list.
 
 # days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
@@ -29,7 +32,7 @@
 # days.pop()
 # print(days)
 
-
+                 # ///////////////////////////////////
 
 # Q.4: Create a list of numbers & write a program to get the smallest & greatest number from a list.
 
@@ -41,6 +44,8 @@
 #         break
 # else:
 #     print("No number greater than 0")
+
+               # ///////////////////////////////////
 
 
 # Q5:
@@ -61,7 +66,7 @@
 # print(key_trai)
 
 
-
+                # ///////////////////////////////////
 
 # Q.6: Create dictionary variable name world then inside it create countries dictionary, 
 # Key will be the name country & country value will have another dictionary having capitalCity, currency and language to it. 
@@ -107,17 +112,15 @@
 #   print(f"{country.title()}, Capital: {capital}, currency: {currency}")
 #   print("-" * 30 )
 
+        # ///////////////////////////////////
 
 
-# Question 7 (Python version):
-# expenses = {
-#     'sun': 3000.0,
-#     'mon': 3000.0,
-#     'tue': 3234.0,
-# }a
-# Check if 'fri' exists in the expenses dictionary.
-# If it exists, change its value to 5000.0.
-# If it doesn't exist, add 'fri' to the dictionary with a value of 5000.0
+
+# Question 7 //
+# Given a dictionary of expenses with days of the week as keys
+# and corresponding values as amounts, check if "fri" exists in the dictionary. 
+# If it exists, change its value to 5000.0. If it does not exist, 
+# add "fri" to the dictionary with a value of 5000.0. 
 
 # expenses = {
 #     'sun': 3000.0,
@@ -134,7 +137,10 @@
 
 # print(expenses)
 
-#  Q.8: remove all false values from below list by using removeWhere or retainWhere property.
+         # ///////////////////////////////////
+
+# Q.8: remove all false values from below list by using removeWhere 
+# or retainWhere property.
 
 # users_eligibility = [
 #   {'name': 'yahya','eligibility': True},
@@ -151,23 +157,36 @@
 
 # print(f'{filterd} you are eligible')
 
+       # ///////////////////////////////////
 
-users_eligibility =[
-    {"user": "yahya","eligible": True},
-    {"user": "Rais","eligible": True},
-    {"user": "Abdullah","eligible": False},
-    {"user": "Abdul Rehmen","eligible": True},
-    {"user": "Aafan","eligible": True},
-]
+# Q.9 (Python):
+# Given a list of integers, write a Python function that returns the maximum value
+# from the list.
 
-# filterd = []
-# for user in users_eligibility:
-#     if user ['eligible']:
-#      filterd.append(user)   
-# print(f'{filterd} you are eligible')
+# num = [1,2,3,4,5,6,7,88]
+# print(f"Greater Number :",max(num))
 
-filtered = []
-for user in users_eligibility:
-  if user ['eligible']:
-   filtered.append(user)
-print(f"{filtered} yor are eligible")
+        
+      # ///////////////////////////////////
+
+# Q.10:
+# Write a Python function that takes a list of strings
+# and removes any duplicate elements, returning a new list without duplicates.
+# The order of elements in the new list should be the same as in the original list.
+
+def remove_duplicates(input_list):
+    seen = set()  # To keep track of seen elements
+    result = []  # To store the result without duplicates
+    
+    for item in input_list:
+        if item not in seen:
+            result.append(item)  # Add item to result if not seen before
+            seen.add(item)  # Mark item as seen
+    
+    return result
+
+# Example usage:
+original_list = ["apple", "banana", "apple", "orange", "banana", "grape"]
+new_list = remove_duplicates(original_list)
+print(new_list)
+

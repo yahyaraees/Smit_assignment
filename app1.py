@@ -14,25 +14,10 @@
 # /////////////////
 
 # Q.2: Take two variables and store age then using 
-# if/else condition to determine oldest and youngest among them.
-
-
-
-# abc = 16
-# old = 16
-
-# if  abc < old:
-#   print("abc is short num")
-# elif old > abc:
-#   print("old num is longer")
-# else:
-#   print("both are same") 
-
-
+# if/else condition to determine oldest and youngest among them.) 
 
 # age1 = 2
 # age2 = 80
-
 
 # if age1 > age2:
 #  print("age1 is older")
@@ -128,8 +113,8 @@
 
 
 # ./////////////////
-# Q.6: Write a program to check whether an alphabet is a vowel or consonant.
 
+# Q.6: Write a program to check whether an alphabet is a vowel or consonant.
 
 # user = str(input("Enter vowel words "))
 
@@ -140,9 +125,6 @@
 #      print("it's a vowel words")  
 # else:
 #     print("it's a consonant")    
-
-
-
 
 
 
