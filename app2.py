@@ -192,4 +192,14 @@
 # original_list = ["apple", "banana", "apple", "orange", "banana", "grape"]
 # new_list = remove_duplicates(original_list)
 # print(new_list)
+# def greet(name):
+#     print(f"Hello {name}!")
 
+# greet("Yahya")
+# greet("ALi")
+
+def order_pizza(flavor):
+    print(f"{flavor} pizza is being prepared...")
+
+order_pizza("Pepperoni")
+order_pizza("Chicken Fajita")
