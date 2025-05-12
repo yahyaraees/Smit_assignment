@@ -38,10 +38,10 @@
 
 # list_number = [10,-1,0,-7,-4,-5]
 
-# for num in list_number:
-#     if num > 0:
-#         print("Larger Number Found:", num)
-#         break
+# # for num in list_number:
+# if list_number > 0:
+#         print("Larger Number Found:",list_number)
+    
 # else:
 #     print("No number greater than 0")
 
@@ -49,8 +49,8 @@
 
 
 # Q5:
-#    Create a dictionary named contact_map with keys "name" and "phone", and store some appropriate values in it.
-#    Then, use a list comprehension to find all keys in the dictionary that have a length of 4 characters.
+# Create a dictionary named contact_map with keys "name" and "phone", and store some appropriate values in it.
+# Then, use a list comprehension to find all keys in the dictionary that have a length of 4 characters.
 
 # contact_map = {
 #    "name" : ["Yahya","Rais","siflf","kjfljdfsjfl"],
@@ -61,8 +61,9 @@
 #     if len(key) == 4:
 #      key_list.append(key)                                      1st use
 #      print(key_list)   
-
-# key_trai = [key for key in contact_map if len(key) == 5]        '''2st use '''' same work
+       
+    
+# key_trai = [key for key in contact_map if len(key) == 4]        '''2st use '''' same work
 # print(key_trai)
 
 
@@ -105,6 +106,7 @@
 #       },
 #     }
 # }
+# print(world["countries"]["pakistan"])
 
 # for country in world["countries"]:
 #   capital =  world["countries"][country]["capital"] 
@@ -149,7 +151,8 @@
 #   {'name': 'ahsan','eligibility': False},
 #   {'name': 'hasnain','eligibility': True},
 # ]
-
+# finallys = [key for key in users_eligibility if key['eligibility']]
+# print(finallys)
 # filterd = []
 # for user in users_eligibility:
 #     if user ['eligibility']:
@@ -171,22 +174,22 @@
 
 # Q.10:
 # Write a Python function that takes a list of strings
-# and removes any duplicate elements, returning a new list without duplicates.
+# and removes any duplicate elements, returning a new list without duplgit icates.
 # The order of elements in the new list should be the same as in the original list.
 
-def remove_duplicates(input_list):
-    seen = set()  # To keep track of seen elements
-    result = []  # To store the result without duplicates
+# def remove_duplicates(input_list):
+#     seen = set()  # To keep track of seen elements
+#     result = []  # To store the result without duplicates
     
-    for item in input_list:
-        if item not in seen:
-            result.append(item)  # Add item to result if not seen before
-            seen.add(item)  # Mark item as seen
+#     for item in input_list:
+#         if item not in seen:
+#             result.append(item)  # Add item to result if not seen before
+#             seen.add(item)  # Mark item as seen
     
-    return result
+#     return result
 
-# Example usage:
-original_list = ["apple", "banana", "apple", "orange", "banana", "grape"]
-new_list = remove_duplicates(original_list)
-print(new_list)
+# # Example usage:
+# original_list = ["apple", "banana", "apple", "orange", "banana", "grape"]
+# new_list = remove_duplicates(original_list)
+# print(new_list)
 
