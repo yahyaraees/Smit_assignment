@@ -25,6 +25,16 @@
 
 
 
+
+# def fruit(flavor):
+#     print(f'{flavor} i good has is good '  )
+
+
+# fruit('papaya')
+# fruit('fajita')
+
+
+
 # class Person:
 #     def __init__(self, name):
 #         self.name = name
@@ -61,16 +71,33 @@
 
 
 
-class student:
-    school_name = "muslim public school"
+# class student:
+#     school_name = "muslim public school"
 
-    def __init__(self, name):
-       self.name = name
+#     def __init__(self, name):
+#        self.name = name
 
-s1 = student("ali")     
-s2 = student("zuhaib")  
+# s1 = student("ali")     
+# s2 = student("zuhaib")  
 
-print(s1.school_name) 
-print(s2.school_name) 
-print(s1.name) 
-print(s2.name) 
+# print(s1.school_name) 
+# print(s2.school_name) 
+# print(s1.name) 
+# print(s2.name) 
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.__name = name  # private variable
+
+#     def show(self):
+#         print(f"Name is {self.__name}")       
+class Animal:
+    def sound(self):
+        print("Some sound")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.sound()        
