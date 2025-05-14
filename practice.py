@@ -52,3 +52,25 @@
 # Attributes: Uska naam (Rahul), umar (25), height (5.8 feet).
 # Methods: Chalna, bolna, khaana.
 
+
+# class student:
+#   def __init__(self, name):
+#     self.name = name
+
+# s1 = student("yahya") 
+
+
+
+class student:
+    school_name = "muslim public school"
+
+    def __init__(self, name):
+       self.name = name
+
+s1 = student("ali")     
+s2 = student("zuhaib")  
+
+print(s1.school_name) 
+print(s2.school_name) 
+print(s1.name) 
+print(s2.name) 
