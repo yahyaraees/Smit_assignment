@@ -204,6 +204,13 @@
 
 #  order_pizza("Pepperoni")
 #  order_pizza("Chicken Fajita")
-# 
+
+
+
+def greet(flavor):
+    print(f"Hi {flavor}how are you ")
+   
+greet("yahya ")        
+greet("Rais ")        
   
  
