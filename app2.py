@@ -207,10 +207,10 @@
 
 
 
-def greet(flavor):
-    print(f"Hi {flavor}how are you ")
+# def greet(flavor):
+#     print(f"Hi {flavor}how are you ")
    
-greet("yahya ")        
-greet("Rais ")        
+# greet("yahya ")        
+# greet("Rais ")        
   
- 
+
