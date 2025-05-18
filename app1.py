@@ -368,3 +368,4 @@ squre_root = int(input("Enter your number "))
 
 filered = squre_root ** 0.5 
 print(f"{squre_root} root is",filered)
+print(f"{squre_root} root is",filered)
