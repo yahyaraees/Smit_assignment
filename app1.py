@@ -359,7 +359,12 @@
 #     print("Invalid choice. Please enter 1 or 2.")
 
 
-squre_root = int(input("Enter you number "))
+# squre_root = int(input("Enter you number "))
 
-jum = squre_root ** 0.5 
-print(f"{squre_root} root is " ,jum)
+# jum = squre_root ** 0.5 
+# print(f"{squre_root} root is " ,jum)
+
+squre_root = int(input("Enter your number "))
+
+filered = squre_root ** 0.5 
+print(f"{squre_root} root is",filered)
