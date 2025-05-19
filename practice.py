@@ -17,7 +17,7 @@
 
 
 def greet(flavor):
-    print('f{flavor}your ordered id ready')
+  print(f'{flavor} your ordered id ready')
 
 greet('pajita')    
 greet('cheese')    
