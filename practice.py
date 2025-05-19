@@ -10,7 +10,18 @@
 # greet()     
 # greet()     
 # greet()     
- 
+
+
+
+
+
+
+def greet(flavor):
+    print('f{flavor}your ordered id ready')
+
+greet('pajita')    
+greet('cheese')    
+    
 
 #    Agar function har baar alag input ke sath kaam karega, to parameter zaroori hai.
 
@@ -101,6 +112,3 @@ class Dog(Animal):
 
 d = Dog()
 d.sound()       
-jfldjofdjfjdifjf
-fjdlkjfsdjfoijd
- 
