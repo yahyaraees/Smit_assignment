@@ -63,6 +63,8 @@
 #      print(key_list)   
        
     
+
+
 # key_trai = [key for key in contact_map if len(key) == 4]        '''2st use '''' same work
 # print(key_trai)
 
@@ -211,6 +213,13 @@
 #     print(f"Hi {flavor}how are you ")
    
 # greet("yahya ")        
-# greet("Rais ")        
+# greet("Rais ")     
+# 
+# 
+# 
+#    
   
 
+def yahya():
+    print("hello world")
+yahya()    
