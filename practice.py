@@ -6,22 +6,14 @@
 #    Agar function same kaam har baar karega, to parameter optional hai.
 
 # def greet():
-#   print("hello world")
+#   print("hello world")s
 # greet()     
 # greet()     
 # greet()     
 
 
 
-
-
-
-def greet(flavor):
-  print(f'{flavor} your ordered id ready')
-
-greet('pajita')    
-greet('cheese')    
-    
+   
 
 #    Agar function har baar alag input ke sath kaam karega, to parameter zaroori hai.
 
@@ -103,12 +95,43 @@ greet('cheese')
 
 #     def show(self):
 #         print(f"Name is {self.__name}")       
-class Animal:
-    def sound(self):
-        print("Some sound")
+# class Animal:
+#     def sound(self):
+#         print("Some sound")
 
-class Dog(Animal):
-    pass
+# class Dog(Animal):
+#     pass
 
-d = Dog()
-d.sound()       
+# d = Dog()
+# d.sound()       
+
+
+class Student():
+    def __init__ (self ,name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    def show(self):
+        print(f' My name is {self.name} : ----- My  age is {self.age} : -----  My grade is {self.grade}')
+students = [
+    Student('Yahya', 19, 'A'),
+    Student('Hasnain', 29, 'B'),
+    Student('Osama', 29, 'B'),
+    Student('Huzaifa', 29, 'B'),
+    Student('Anas', 29, 'B'),
+    Student('Mohib', 29, 'B'),
+    Student('Affan', 29, 'B'),
+    Student('Abdullah', 29, 'C'),
+    Student('Abdullah', 29, 'C'),
+    Student('Abdullah', 29, 'C'),
+]
+
+for s in students:
+    s.show()
+
+
+
+
+       
+        
