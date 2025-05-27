@@ -378,9 +378,6 @@
 
 squre = int(input('Enter your Number: '))
 filtered = squre ** 0.5
-print('{} ka root hai {:.2f}'.format(squre, filtered))
-print('{} ka root hai {:.2f}'.format(squre, filtered))
-print('{} ka root hai {:.2f}'.format(squre, filtered))
-print('{} ka root hai {:.2f}'.format(squre, filtered))
-print('{} ka root hai {:.2f}'.format(squre, filtered))
-print('{} ka root hai {:.2f}'.format(squre, filtered))
+
+
+print('f{squre} ka root ha ,{filtered:.2}')
