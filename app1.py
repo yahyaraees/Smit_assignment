@@ -371,7 +371,11 @@
 # print(f"{squre_root} root is",filered)
 
 
-squre = int(input('Enter your number'))
+# squre = int(input('Enter your number'))
 
-filered = squre ** 0.5 
-print(filered)
+# filered = squre ** 0.5 
+# print(filered)
+
+squre = int(input('Enter your Number: '))
+filtered = squre ** 0.5
+print('{} ka root hai {:.2f}'.format(squre, filtered))
