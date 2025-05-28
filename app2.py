@@ -146,15 +146,15 @@
 # Q.8: remove all false values from below list by using removeWhere 
 # or retainWhere property.
 
-# users_eligibility = [
-#   {'name': 'yahya','eligibility': True},
-#   {'name': 'rais','eligibility': False},
-#   {'name': 'aafan','eligibility': True},
-#   {'name': 'ahsan','eligibility': False},
-#   {'name': 'hasnain','eligibility': True},
-# ]
-# finallys = [key for key in users_eligibility if key['eligibility']]
-# print(finallys)
+users_eligibility = [
+  {'name': 'yahya','eligibility': True},
+  {'name': 'rais','eligibility': False},
+  {'name': 'aafan','eligibility': True},
+  {'name': 'ahsan','eligibility': False},
+  {'name': 'hasnain','eligibility': True},
+]
+finallys = [key for key in users_eligibility if key['eligibility']]
+print(finallys)
 # filterd = []
 # for user in users_eligibility:
 #     if user ['eligibility']:
@@ -213,6 +213,7 @@
 #     print(f"Hi {flavor}how are you ")
    
 # greet("yahya ")        
+# greet("Rais ")     
 # greet("Rais ")     
 # 
 # 

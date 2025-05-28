@@ -31,6 +31,11 @@
 #    print("both are of the age same") 
 
 
+fruits = ['apple', 'banana', 'cherry']
+a, b, c = fruits
+print(b)
+
+
 # ///////////////////
 
 # Q.3: A student will not be allowed to sit in exam if his/her attendance is less than 75%. Create integer variables and assign value:
@@ -70,6 +75,11 @@
 #    print("century year but not a leap year")
 # else:
 #    print("is not leap_year and leap_century")   
+
+
+
+
+
 
 
 # /////////////////
@@ -146,7 +156,7 @@
 #   print("\n Your unit fall under Rs. 1.20 per unit")
 # elif unit >= 200 and  unit < 400:
 #   rate = 1.50 
-#   print("\ny Your unit fall under Rs. 1.50 per unit")
+#   print("\n Your unit fall under Rs. 1.50 per unit")
 # elif unit >=400 and unit < 600:
 #   rate = 1.80
 #   print(" \n Your unit fall under Rs. 1.80 per unit ---")
@@ -375,9 +385,3 @@
 
 # filered = squre ** 0.5 
 # print(filered)
-
-squre = int(input('Enter your Number: '))
-filtered = squre ** 0.5
-
-
-print('f{squre} ka root ha ,{filtered:.2}')
