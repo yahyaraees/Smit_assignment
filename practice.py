@@ -134,6 +134,7 @@ students = [
     Student('Abdullah', 29, 'C'),
     Student('Abdullah', 29, 'C'),
     Student('Abdullah', 29, 'C'),
+    Student('Abdullah', 29, 'C'),
 ]
 
 for s in students:
