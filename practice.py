@@ -106,42 +106,55 @@
 # d.sound()       
 
 
-class Student():
-    def __init__ (self ,name, age, grade):
-        self.name = name
-        self.age = age
-        self.grade = grade
+# class Student():
+#     def __init__ (self ,name, age, grade):
+#         self.name = name
+#         self.age = age
+#         self.grade = grade
 
-    def show(self):
-        print(f' My name is {self.name} : ----- My  age is {self.age} : -----  My grade is {self.grade}')
-students = [
-    Student('Yahya', 19, 'A'),
-    Student('Hasnain', 29, 'B'),
-    Student('Osama', 29, 'B'),
-    Student('Huzaifa', 29, 'B'),
-    Student('Anas', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Mohib', 29, 'B'),
-    Student('Affan', 29, 'B'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-    Student('Abdullah', 29, 'C'),
-]
+#     def show(self):
+#         print(f' My name is {self.name} : ----- My  age is {self.age} : -----  My grade is {self.grade}')
+# students = [
+#     Student('Yahya', 19, 'A'),
+#     Student('Hasnain', 29, 'B'),
+#     Student('Osama', 29, 'B'),
+#     Student('Huzaifa', 29, 'B'),
+#     Student('Anas', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Mohib', 29, 'B'),
+#     Student('Affan', 29, 'B'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+#     Student('Abdullah', 29, 'C'),
+# ]
 
-for s in students:
-    s.show()
-
-
+# for s in students:
+#     s.show()
 
 
-       
+user_name = 'yahyarais88@gmail.com'
+user_password = '123456'
+
+is_true = True      
+
+while is_true:
+    input_name     =  input('Enter your name: ')
+    input_password = input('Enter your password: ')
+
+    if user_name == input_name and user_password == input_password:
+     print('login Successfull')
+     break
+    else:
+     print('try again incorrect your name and password')    
+     print('try again incorrect your name and password')    
+
         
