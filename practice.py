@@ -164,20 +164,34 @@
 
 
 
-user_name = "zikriya@123"
-user_password = "123456"
+# user_name = "zikriya@123"
+# user_password = "123456"
+# istrue = True
+
+# while istrue:
+#     input_user = input('Enter your name ')
+#     input_password = input('Enter your password ')
+
+#     if input_user == user_name and input_password == user_password:
+#      print('login successfull') 
+#      break
+#     else:
+#      print('try again')        
+#      print('try again')        
+
+
+username = 'yahya123'
+userpassword = '1234'
+
 istrue = True
 
 while istrue:
-    input_user = input('Enter your name ')
-    input_password = input('Enter your password ')
+     input_user = input('Enter your Name ')
+     input_password = input('Enter your password')
 
-    if input_user == user_name and input_password == user_password:
-     print('login successfull') 
-     break
-    else:
-     print('try again')        
-     print('try again')        
-     print('try again')        
-
+     if input_user == username and input_password ==  user_password:
+      print('Login Successfull')
+      break
+     else:
+      print('try again')  
         
