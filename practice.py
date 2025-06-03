@@ -141,23 +141,41 @@
 #     s.show()
 
 
-user_name = 'yahyarais88@gmail.com'
-user_password = '123456'
+# user_name = 'yahyarais88@gmail.com'
+# user_password = '123456'
 
-is_true = True      
+# is_true = True      
 
-while is_true:
-    input_name     =  input('Enter your name: ')
-    input_password = input('Enter your password: ')
+# while is_true:
+#     input_name     =  input('Enter your name: ')
+#     input_password = input('Enter your password: ')
 
-    if user_name == input_name and user_password == input_password:
-     print('login Successfull')
+#     if user_name == input_name and user_password == input_password:
+#      print('login Successfull')
+#      break
+#     else:
+#      print('try again incorrect your name and password')    
+#      print('try again incorrect your name and password')     
+#      print('try again incorrect your name and password')     
+#      print('try again incorrect your name and password')     
+#      print('try again incorrect your name and password')     
+
+
+
+
+
+user_name = "zikriya@123"
+user_password = "123456"
+istrue = True
+
+while istrue:
+    input_user = input('Enter your name ')
+    input_password = input('Enter your password ')
+
+    if input_user == user_name and input_password == user_password:
+     print('login successfull') 
      break
     else:
-     print('try again incorrect your name and password')    
-     print('try again incorrect your name and password')     
-     print('try again incorrect your name and password')     
-     print('try again incorrect your name and password')     
-     print('try again incorrect your name and password')     
+     print('try again')        
 
         
