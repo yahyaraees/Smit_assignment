@@ -146,16 +146,16 @@
 # Q.8: remove all false values from below list by using removeWhere 
 # or retainWhere property.
 
-users_eligibility = [
-  {'name': 'yahya','eligibility': True},
-  {'name': 'rais','eligibility': False},
-  {'name': 'aafan','eligibility': True},
-  {'name': 'ahsan','eligibility': False},
-  {'name': 'hasnain','eligibility': True},
-]
-finallys = [key for key in users_eligibility if key['eligibility']]
-print(finallys)
-# filterd = []
+# users_eligibility = [
+#   {'name': 'yahya','eligibility': True},
+#   {'name': 'rais','eligibility': False},
+#   {'name': 'aafan','eligibility': True},
+#   {'name': 'ahsan','eligibility': False},
+#   {'name': 'hasnain','eligibility': True},
+# ]
+# finallys = [key for key in users_eligibility if key['eligibility']]
+# print(finallys)
+# # filterd = []
 # for user in users_eligibility:
 #     if user ['eligibility']:
 #      filterd.append(user)   
@@ -195,31 +195,30 @@ print(finallys)
 # new_list = remove_duplicates(original_list)
 # print(new_list)
 # def greet(name):
-#     print(f"Hello {name}!")
+#     print(f"Hello {name}!"
 
 
-# greet("Yahya")
-# greet("ALi")
+# fruits = ["apple",
+#       "apple",
+#       "mango",
+#       "mango", 
+#       "orange",
+#       "banana",
+#       "banana"]
+# duplicate_elimate = list(set(fruits))
+# print(duplicate_elimate)
+fruits = [
+    "apple",
+    "apple",
+    "mango",
+    "orange",
+    "banana",
+    "banana"
+]
 
-# def order_pizza(flavor):
-#     print(f"{flavor} pizza is being prepared...")
-
-#  order_pizza("Pepperoni")
-#  order_pizza("Chicken Fajita")
+duplicate_elementsu = list(set(fruits))
+print(duplicate_elementsu)
 
 
 
-# def greet(flavor):
-#     print(f"Hi {flavor}how are you ")
-        
-# greet("yahya ")        
-# greet("Rais ")     
-# 
-# 
-# 
-#    
-  
 
-def yahya():
-    print("hello world")
-yahya()   
