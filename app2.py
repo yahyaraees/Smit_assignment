@@ -211,11 +211,7 @@ print(finallys)
 
 # def greet(flavor):
 #     print(f"Hi {flavor}how are you ")
-   
-# greet("yahya ")        
-# greet("yahya ")        
-# greet("yahya ")        
-# greet("yahya ")        
+        
 # greet("yahya ")        
 # greet("Rais ")     
 # 
@@ -226,4 +222,4 @@ print(finallys)
 
 def yahya():
     print("hello world")
-yahya()    
+yahya()   

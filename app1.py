@@ -147,33 +147,33 @@
 
 
 
-id = int(input("Enter your ID "))
-name = str(input("Enter your Name "))
-unit = float(input("Enter your Unit "))
-rate = 0
-if unit <=199:
-  rate = 1.20
-  print("\n Your unit fall under Rs. 1.20 per unit")
-elif unit >= 200 and  unit < 400:
-  rate = 1.50 
-  print("\n Your unit fall under Rs. 1.50 per unit")
-elif unit >=400 and unit < 600:
-  rate = 1.80
-  print(" \n Your unit fall under Rs. 1.80 per unit ---")
-elif unit >= 600:
-  rate = 2.00
-  print("\n Your unit fall under Rs. 2.00 per unit")
-else: 
-  print("\n Invid input range")
+# id = int(input("Enter your ID "))
+# name = str(input("Enter your Name "))
+# unit = float(input("Enter your Unit "))
+# rate = 0
+# if unit <=199:
+#   rate = 1.20
+#   print("\n Your unit fall under Rs. 1.20 per unit")
+# elif unit >= 200 and  unit < 400:
+#   rate = 1.50 
+#   print("\n Your unit fall under Rs. 1.50 per unit")
+# elif unit >=400 and unit < 600:
+#   rate = 1.80
+#   print(" \n Your unit fall under Rs. 1.80 per unit ---")
+# elif unit >= 600:
+#   rate = 2.00
+#   print("\n Your unit fall under Rs. 2.00 per unit")
+# else: 
+#   print("\n Invid input range")
 
-bill_amount = unit * rate
+# bill_amount = unit * rate
  
-print("\n--- Electricity bill ---") 
-print(f"Customer IDNO  {id}")
-print(f"Customer Name  {name}")
-print(f"Unit Consumed {unit}")
-print(f"Amount Charges @Rs. {rate} per unit : {bill_amount:.2f}")
-print("Net Bill Amount :", round(bill_amount,2), "Rupees — You are a VIP customer!")
+# print("\n--- Electricity bill ---") 
+# print(f"Customer IDNO  {id}")
+# print(f"Customer Name  {name}")
+# print(f"Unit Consumed {unit}")
+# print(f"Amount Charges @Rs. {rate} per unit : {bill_amount:.2f}")
+# print("Net Bill Amount :", round(bill_amount,2), "Rupees — You are a VIP customer!")
 
 
     
