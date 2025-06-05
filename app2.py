@@ -199,6 +199,7 @@
 #     print(f"Hello {name}!"
 
 #         # /////////// 2nd option /////////
+
 # fruits = [
 #     "apple",
 #     "apple",
@@ -213,6 +214,19 @@
 # print(duplicate_elementsu)
 
 
+
+
+listiyo = [
+    'mango',
+    'apple',
+    'grapes'
+    'papaya',
+    'orange',
+    'mango'
+]
+
+duplicateones = list(set(listiyo))
+print(duplicateones)
   
   
 
