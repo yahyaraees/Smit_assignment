@@ -146,15 +146,15 @@
 # Q.8: remove all false values from below list by using removeWhere 
 # or retainWhere property.
 
-users_eligibility = [
-  {'name': 'yahya','eligibility': True},
-  # {'name': 'rais','eligibility': False},
-  {'name': 'yahya','eligibility': True},
-  # {'name': 'ahsan','eligibility': False},
-  # {'name': 'hasnain','eligibility': True},
-]
-finallys = [key for key in users_eligibility if key['eligibility']]
-print(finallys)
+# users_eligibility = [
+#   {'name': 'yahya','eligibility': True},
+#   # {'name': 'rais','eligibility': False},
+#   {'name': 'yahya','eligibility': True},
+#   # {'name': 'ahsan','eligibility': False},
+#   # {'name': 'hasnain','eligibility': True},
+# ]
+# finallys = [key for key in users_eligibility if key['eligibility']]
+# print(finallys)
 # # filterd = []
 # for user in users_eligibility:
 #     if user ['eligibility']:
@@ -213,10 +213,26 @@ print(finallys)
 
 
 
-listyo = ['apple', 'mango',' banana','orange','mango']
+weekend = {
+    'sunday': '3000',
+    'monday': '3000',
+    'tuesday': '3000',
+    'wednesday': '3000',
+    'thusday': '3000',
+    'friday': '3000'
+}
 
-duplicate_elemen = list(set(listyo))
-print(duplicate_elemen)
+if 'fri' in weekend:
+    weekend['fri'] = ['5000']
+    print('friday is exits and update value')
+
+else:
+    weekend['fri'] = ['5000']
+    print('fri and value add ki ha')
+  
+  
+
+
 
 
 
