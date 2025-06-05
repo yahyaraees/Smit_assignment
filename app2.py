@@ -210,25 +210,9 @@
 
 # duplicate_elementsu = list(set(fruits))
 # print(duplicate_elementsu)
+# print(duplicate_elementsu)
 
 
-
-weekend = {
-    'sunday': '3000',
-    'monday': '3000',
-    'tuesday': '3000',
-    'wednesday': '3000',
-    'thusday': '3000',
-    'friday': '3000'
-}
-
-if 'fri' in weekend:
-    weekend['fri'] = ['5000']
-    print('friday is exits and update value')
-
-else:
-    weekend['fri'] = ['5000']
-    print('fri and value add ki ha')
   
   
 
