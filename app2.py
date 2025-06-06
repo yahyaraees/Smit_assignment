@@ -216,27 +216,36 @@
 
 
 
-listiyo = [
-    'mango',
-    'apple',
-    'grapes'
-    'papaya',
-    'orange',
-    'mango'
-]
+# listiyo = [
+#     'mango',
+#     'apple',
+#     'grapes'
+#     'papaya',
+#     'orange',
+#     'mango'
+# ]
 
-duplicateones = list(set(listiyo))
-print(duplicateones)
+# duplicateones = list(set(listiyo))
+# print(duplicateones)
 
 
-listyo = ['hello',
-          'mango',
-          'grapes',
-          'grapes'
-         ]
-dupli = list(set(listyo))
-print(dupli)
+# listyo = ['hello',
+#           'mango',
+#           'grapes',
+#           'grapes'
+#          ]
+# dupli = list(set(listyo))
+# print(dupli)
+
+
+fruites: list = ['apple','mango','grapes','papaya','banana']
   
+# print(fruites[0])  
+# print(fruites[-2])  
+fruites.append('mango')
+fruites.pop(1)
+print(fruites)  
+# print(fruites[0:3])  
   
 
 
