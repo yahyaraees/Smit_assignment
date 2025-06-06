@@ -227,6 +227,15 @@ listiyo = [
 
 duplicateones = list(set(listiyo))
 print(duplicateones)
+
+
+listyo = ['hello',
+          'mango',
+          'grapes',
+          'grapes'
+         ]
+dupli = list(set(listyo))
+print(dupli)
   
   
 
