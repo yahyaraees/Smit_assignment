@@ -247,6 +247,8 @@ fruites.pop(1)
 print(fruites)  
 # print(fruites[0:3])  
   
+fruto: list = ['apple','mango','pineApple','banana'] 
+print(fruto.pop(-3)) 
 
 
 
