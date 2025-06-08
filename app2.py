@@ -251,6 +251,9 @@ fruto: list = ['apple','mango','pineApple','banana']
 frutoer: list = ['apple','mango','pineApple','banana'] 
 print(fruto.pop(-3)) 
 print(frutoer.pop(-3)) 
+print(frutoer.pop(-3)) 
+print(frutoer.pop(-3)) 
+
 
 
 
