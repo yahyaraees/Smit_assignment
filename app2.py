@@ -253,6 +253,8 @@ print(fruto.pop())
 
 settiyo: set = ('hello world')
 print(settiyo)
+print(settiyo)
+print(settiyo)
 
 
 
