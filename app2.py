@@ -239,6 +239,8 @@
 
 
 fruites: list = ['apple','mango','grapes','papaya','banana']
+
+
   
 # print(fruites[0])  
 # print(fruites[-2])  
