@@ -250,6 +250,7 @@ print(fruites)
 fruto: list = ['apple','mango','pineApple','banana'] 
 frutoer: list = ['apple','mango','pineApple','banana'] 
 print(fruto.pop()) 
+print(fruto.pop()) 
 
 settiyo: set = ('hello world')
 print(settiyo)
