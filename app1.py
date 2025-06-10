@@ -381,7 +381,7 @@
 # print(f"{squre_root} root is",filered)
 
 
-# squre = int(input('Enter your number'))
+squre = int(input('Enter your number'))
 
-# filered = squre ** 0.5 
-# print(filered)
+filered = squre ** 0.5 
+print(filered)
