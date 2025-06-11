@@ -239,6 +239,4 @@ while istrue:
       break
      else:
       print('try again')  
-      print('try again')  
-      print('try again')  
         
