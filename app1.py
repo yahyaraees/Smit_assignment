@@ -385,3 +385,9 @@ squre = int(input('Enter your number'))
 
 filered = squre ** 0.5 
 print(filered)
+
+
+squre = int(input('Enter your number'))
+
+filered = squre ** 0.5 
+print(filered)
