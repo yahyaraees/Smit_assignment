@@ -29,10 +29,10 @@
 istrue = True
 
 while istrue:
-    input_palindrome = input("Enter a word (or type 'exit' to quit): ").strip()
+    input_palindrome = input("Enter a word (or type 'exit' to quit): ")
 
     if input_palindrome.lower() == "exit":
-        break
+      break
 
     if input_palindrome == input_palindrome[::-1]:
         print("Palindrome")
