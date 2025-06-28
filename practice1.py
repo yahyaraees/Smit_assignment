@@ -26,6 +26,12 @@
 
 
 
+def hello(yahya):
+  print('hello world')
+
+hello('jerry')  
+hello('yoy')  
+
 
 
 
@@ -194,6 +200,7 @@ while istrue:
      else:
       print('try again')  
       print('try again')  
+
 
 
         
